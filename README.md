@@ -1,4 +1,4 @@
-# custom-alarm-web-component
+# markdown-editor-web-component
 
 ## Description
 Markdown Editor is a web component that allows users to write and preview markdown content. The editor provides a toolbar for easy formatting and a live preview feature to see the formatted output in real-time.
