@@ -12,12 +12,12 @@ markdownTemplate.innerHTML = `
         textarea {
             margin-top: 10px;
             width: 100%;
-            min-height: 150px;
+            min-height: 200px;
             padding: 10px;
             box-sizing: border-box;
             border: 2px solid #ccc;
             border-radius: 4px;
-            background-color: #f8f8f8;
+            background-color: #f4dcfa;
             font-size: 16px;
         }
         .preview {
@@ -25,7 +25,7 @@ markdownTemplate.innerHTML = `
             padding: 10px;
             border: 2px solid #ccc;
             border-radius: 4px;
-            background: #f8f8f8;
+            background: #dcf2e9;
         }
         .btn {
             display: inline-block;
@@ -47,6 +47,7 @@ markdownTemplate.innerHTML = `
             background-image: none;
             border: 1px solid transparent;
             border-radius: 4px;
+            background: #f2d6c2;
         }
         .btn:focus,
         .btn:active:focus,
@@ -133,7 +134,6 @@ class MarkdownEditor extends HTMLElement {
 
   updatePreview() {
     const previewContent = this.parseMarkdownToHtml(this.editor.value);
-    console.log(previewContent);
     this.preview.innerHTML = previewContent;
   }
 
